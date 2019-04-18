@@ -26,7 +26,7 @@ def create_alien_random(ai_settings, screen, stats, aliens_of_color, color):
 	x = randint(0, ai_settings.screen_width - alien_width)
 	place_alien(screen, aliens_of_color, x, alien)
 
-def create_alien_x(ai_settings, screen, stats, aliens_of_color, color, x = 0):
+def create_alien_x(ai_settings, screen, stats, aliens_of_color, color, x=0):
 	"""Create an alien and place it in a given coordinate."""
 	if color == 'green':
 		alien = AlienGreen(ai_settings, screen)

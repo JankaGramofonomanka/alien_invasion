@@ -3,7 +3,7 @@ from button import Button
 class Menu():
 	"""A class to represent a menu."""
 	
-	def __init__(self, screen, space = 10):
+	def __init__(self, screen, space=10):
 		"""Initialize a list of buttons."""
 		self.buttons = []
 		self.space = space
@@ -33,7 +33,7 @@ class Menu():
 		self.selected = self.selected % len(self.buttons)
 		self.select(self.selected)
 	
-	def select(self, n = 0):
+	def select(self, n=0):
 		"""Select a button."""
 		if self.buttons:
 			self.buttons[self.selected].selected = False

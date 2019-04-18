@@ -30,7 +30,7 @@ class GameStats():
 		self.number_bullets = int(self.ai_settings.first_number_bullets)
 		self.game_paused = False
 	
-	def check_high_score(self, sb, n = 0):
+	def check_high_score(self, sb, n=0):
 		"""Check to see if there's a new high score."""
 		if n == 0:
 			if self.score > self.high_score:

@@ -6,7 +6,7 @@ class PopUpMessage(Sprite):
 	"""A class to manage pop up messages."""
 	
 	def __init__(self, ai_settings, screen, msg, color, x, y,
-			coordinate_x = 'centerx', coordinate_y = 'centery'):
+			coordinate_x='centerx', coordinate_y='centery'):
 		super(Sprite, self).__init__()
 		self.ai_settings = ai_settings
 		self.msg = msg

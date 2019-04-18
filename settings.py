@@ -80,7 +80,7 @@ class Settings():
 		self.interval = 5000.0
 		self.timer = 300
 	
-	def increase_speed(self, k = 1):
+	def increase_speed(self, k=1):
 		"""Increase speed settings and alien point values."""
 		self.ship_speed_factor *= (self.speedup_scale ** k)
 		self.bullet_speed_factor *= (self.speedup_scale ** k)
